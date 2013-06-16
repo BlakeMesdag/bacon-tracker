@@ -1,0 +1,24 @@
+<h2>Our Bacon</h2>
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Quantity</th>
+  </thead>
+  <tbody>
+    <tr data-foreach-bacon="bacons">
+      <td data-bind="bacon.name"></td>
+      <td data-bind="bacon.quantity"></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Add some Bacon</h2>
+<table>
+  <tbody>
+    <tr>
+      <td>Name <input type="text" data-bind="newBacon.name" /></td>
+      <td>Quantity <input type="number" data-bind="newBacon.quantity" /></td>
+    </tr>
+  </tbody>
+</table>
+<a href="#" data-event-click="createBacon | withArguments newBacon">Add Bacon</a>

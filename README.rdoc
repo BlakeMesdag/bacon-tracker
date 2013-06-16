@@ -1,0 +1,5 @@
+== BaconTracker
+
+This is a basic Rails and Batman.js application for tracking some bacon. It is documented in the following post as a getting started guide for Batman.js and Rails 4.0.0.rc2
+
+http://blakemesdag.com/blog/2013/06/16/bacontracker-getting-started-with-batman-js-and-rails-4/
